@@ -16,7 +16,7 @@ CNN models to reproduce results for eci conference 2022 poster
 
 Three data inputs are required- proteins sequence, substrate smiles, and enzyme-substrate pairs (Look at CNN_data folder for the required input files)
 
-For performance prediction on different splits of data (CNN_data folder) run. 
+For performance prediction on different splits of data (CNN_data_split folder) run. 
 
 `python predict_with_model.py ./CNN_results/CNN_results_1/model.model -n predict -i ./CNN_data_split/CNN_data_1/test_dataset/test_act.csv -d ./CNN_data_split/CNN_data_1/test_dataset/test_compound.csv -t ./CNN_data_split/CNN_data_1/test_dataset/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results/CNN_results_1/output_predictions.csv`
 
