@@ -2,17 +2,20 @@
 
 CNN based model for enzyme-substrate activity prediction using enzyme sequence and substrate structural information
 
-## ECI-conf-2022
+## AICHE Annual Meet 2022
 CNN models to reproduce results for eci conference 2022 poster
 
 ## Requirements
-- Tensorflow 1.15.0
+- Tensorflow 2
 - rdkit
 - pandas
 - tqdm
 - numpy 
-- keras 2.3.1
+- keras 
 - scikit-learn
+- streamlit
+
+The EnzRank tool is tested on Linux-based system
 
 Three data inputs are required- proteins sequence, substrate smiles, and enzyme-substrate pairs (Look at CNN_data folder for the required input files)
 
@@ -22,5 +25,9 @@ For performance prediction on different splits of data (CNN_data_split folder) r
 
 This will output "output_prediction.csv" file in the CNN_results folder
 
+To launch the streamlit based graphical user interface: 
+
+move to 'Streamlit' directory using- cd Streamlit 
+launch interface using command: streamlit run main.py 
 
 
