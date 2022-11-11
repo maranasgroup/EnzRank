@@ -18,6 +18,7 @@ CNN models to reproduce results for AICHE annual meet 2022 talk
 ## Steps to run the tool
 
 - create a conda environment using: conda create --prefix MLenv 
+- activate the created environment using: conda activate MLenv
 - install packages using requirement.txt file: pip install -r requirement.txt
 - install rdkit using: pip install rdkit 
 - install streamlit using: pip install streamlit
