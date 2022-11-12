@@ -17,11 +17,11 @@ CNN models to reproduce results for AICHE annual meet 2022 talk
 
 ## Steps to run the tool
 
-- create a conda environment using: conda create --prefix MLenv 
-- activate the created environment using: conda activate MLenv
-- install packages using requirement.txt file: pip install -r requirement.txt
-- install rdkit using: pip install rdkit 
-- install streamlit using: pip install streamlit
+- create a conda environment using: `conda create --prefix MLenv`
+- activate the created environment using: `conda activate MLenv`
+- install packages using requirement.txt file: `pip install -r requirement.txt`
+- install rdkit using: `pip install rdkit` 
+- install streamlit using: `pip install streamlit`
 
 The EnzRank tool is tested on Linux-based system
 
@@ -35,7 +35,7 @@ This will output "output_prediction.csv" file in the CNN_results folder
 
 To launch the streamlit based graphical user interface: 
 
-move to 'Streamlit' directory using- cd Streamlit 
-launch interface using command: streamlit run main.py 
+move to 'Streamlit' directory using- `cd Streamlit` 
+launch interface using command: `streamlit run main.py` 
 
 
