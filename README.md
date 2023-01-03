@@ -69,11 +69,6 @@ launch interface using command: `streamlit run main.py`
     mol_dir               Training mol information [mol, SMILES,[feature_name,..]]
     enz_dir               Training enz information [enz, seq]
 ```
-
-For training model, you should input 3 files, act information file, mol information file and enzyme sequence information file, as their format is specified above.
-
-act information file for training should have `Label` column for training.
-
 ### Optional arguments
 
 ```
