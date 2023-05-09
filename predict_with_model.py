@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from keras.preprocessing import sequence
-from keras.utils import pad_sequences
+from keras_preprocessing import pad_sequences
 import keras
 from keras import backend as K
 from keras.models import load_model
@@ -10,7 +10,7 @@ import h5py
 import pdb
 import tensorflow as tf
 
-physical_devices = tf.config.list_physical_devices('GPU')
+physical_devices = tf.config.experimental.list_physical_devices('GPU')
 
 
 try:
