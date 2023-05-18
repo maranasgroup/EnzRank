@@ -127,3 +127,14 @@ You can validate model with validation dataset, `CNN_data_split/split_0/validati
 This command will train model with given hyper-parameters for 1 epoch. (because of -e 1).
 And resulting in validation result `./validation_output.csv`, and corresponding model `./model.model`
 
+To Look for the performance results of the negative test datasets generated using highly similar substrates- 
+
+To run the predictions on all the new test dataset- 
+on terminal run, "chmod +x test_predict_split_new.sh"
+then, run "./test_predict_split_new.sh"
+
+To look for the performance evaluation and statistical analysis done to test if positive datasets ranks higher than newly generated challenging dataset- 
+Go to "CNN_results_split_final/test_dataset_new" folder and look for "Evaluate_prediction_10_per.ipynb" jupyter notebook which has all the necessary information
+
+We also added another jupyter notebook for bulk retrieval of scores from multiple, 
+Please check the "bulk_retrieval.ipynb" jupyter notebook
