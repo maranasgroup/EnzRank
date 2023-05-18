@@ -1,0 +1,21 @@
+#!/bin/bash
+
+python predict_with_model.py ./CNN_results_split_final/Model_splits/model_split_1.model -n predict -i ./CNN_data_split/CNN_data_1/test_dataset_new/test_act_new_111.csv -d ./CNN_data_split/CNN_data_1/test_dataset_new/test_compound.csv -t ./CNN_data_split/CNN_data_1/test_dataset_new/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results_split_final/test_new_sim_111/test_prediction_split_new_1.csv
+
+python predict_with_model.py ./CNN_results_split_final/Model_splits/model_split_2.model -n predict -i ./CNN_data_split/CNN_data_2/test_dataset_new/test_act_new_111.csv -d ./CNN_data_split/CNN_data_2/test_dataset_new/test_compound.csv -t ./CNN_data_split/CNN_data_2/test_dataset_new/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results_split_final/test_new_sim_111/test_prediction_split_new_2.csv
+
+python predict_with_model.py ./CNN_results_split_final/Model_splits/model_split_3.model -n predict -i ./CNN_data_split/CNN_data_3/test_dataset_new/test_act_new_111.csv -d ./CNN_data_split/CNN_data_3/test_dataset_new/test_compound.csv -t ./CNN_data_split/CNN_data_3/test_dataset_new/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results_split_final/test_new_sim_111/test_prediction_split_new_3.csv
+
+python predict_with_model.py ./CNN_results_split_final/Model_splits/model_split_4.model -n predict -i ./CNN_data_split/CNN_data_4/test_dataset_new/test_act_new_111.csv -d ./CNN_data_split/CNN_data_4/test_dataset_new/test_compound.csv -t ./CNN_data_split/CNN_data_4/test_dataset_new/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results_split_final/test_new_sim_111/test_prediction_split_new_4.csv
+
+python predict_with_model.py ./CNN_results_split_final/Model_splits/model_split_5.model -n predict -i ./CNN_data_split/CNN_data_5/test_dataset_new/test_act_new_111.csv -d ./CNN_data_split/CNN_data_5/test_dataset_new/test_compound.csv -t ./CNN_data_split/CNN_data_5/test_dataset_new/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results_split_final/test_new_sim_111/test_prediction_split_new_5.csv
+
+python predict_with_model.py ./CNN_results_split_final/Model_splits/model_split_6.model -n predict -i ./CNN_data_split/CNN_data_6/test_dataset_new/test_act_new_111.csv -d ./CNN_data_split/CNN_data_6/test_dataset_new/test_compound.csv -t ./CNN_data_split/CNN_data_6/test_dataset_new/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results_split_final/test_new_sim_111/test_prediction_split_new_6.csv
+
+python predict_with_model.py ./CNN_results_split_final/Model_splits/model_split_7.model -n predict -i ./CNN_data_split/CNN_data_7/test_dataset_new/test_act_new_111.csv -d ./CNN_data_split/CNN_data_7/test_dataset_new/test_compound.csv -t ./CNN_data_split/CNN_data_7/test_dataset_new/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results_split_final/test_new_sim_111/test_prediction_split_new_7.csv
+
+python predict_with_model.py ./CNN_results_split_final/Model_splits/model_split_8.model -n predict -i ./CNN_data_split/CNN_data_8/test_dataset_new/test_act_new_111.csv -d ./CNN_data_split/CNN_data_8/test_dataset_new/test_compound.csv -t ./CNN_data_split/CNN_data_8/test_dataset_new/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results_split_final/test_new_sim_111/test_prediction_split_new_8.csv
+
+python predict_with_model.py ./CNN_results_split_final/Model_splits/model_split_9.model -n predict -i ./CNN_data_split/CNN_data_9/test_dataset_new/test_act_new_111.csv -d ./CNN_data_split/CNN_data_9/test_dataset_new/test_compound.csv -t ./CNN_data_split/CNN_data_9/test_dataset_new/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results_split_final/test_new_sim_111/test_prediction_split_new_9.csv
+
+python predict_with_model.py ./CNN_results_split_final/Model_splits/model_split_10.model -n predict -i ./CNN_data_split/CNN_data_10/test_dataset_new/test_act_new_111.csv -d ./CNN_data_split/CNN_data_10/test_dataset_new/test_compound.csv -t ./CNN_data_split/CNN_data_10/test_dataset_new/test_protein.csv -v Convolution -l 2500 -V morgan_fp_r2 -L 2048 -W -o ./CNN_results_split_final/test_new_sim_111/test_prediction_split_new_10.csv
